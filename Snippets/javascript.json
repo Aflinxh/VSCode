@@ -1,0 +1,87 @@
+{
+	// Place your snippets for javascript here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"Print to console": {
+		"prefix": "clog",
+		"body": [
+			"console.log('$1');",
+		],
+		"description": "Log output to console"
+	},
+
+	"Get Element By ID": {
+		"prefix": "gid",
+		"body": "document.getElementById('$1')$2;"
+	},
+
+	"Query Selector": {
+		"prefix": "quer",
+		"body": "document.querySelector('$1')"
+	},
+
+	"Query Selector All": {
+		"prefix": "querall",
+		"body": "document.querySelectorAll('$1')"
+	},
+
+	"Clicked Function Element": {
+		"prefix": "clickf",
+		"body": "$1.addEventListener('click', function() {\n\t$2\n});\n"
+	},
+
+	"Clicked Element": {
+		"prefix": "click",
+		"body": "$1.addEventListener('click', $2);"
+	},
+
+	"Mouseover Function Element": {
+		"prefix": "mousef",
+		"body": "$1.addEventListener('mouseover', function() {\n\t$2\n});\n",
+		"description": "When mouse hover"
+	},
+
+	"Mouseover Element": {
+		"prefix": "mouse",
+		"body": "$1.addEventListener('mouseover', $2);",
+		"description": "When mouse hover"
+	},
+
+	"KeyUp Function Element": {
+		"prefix": "keyupf",
+		"body": "$1.addEventListener('keyup', function() {\n\t$2\n});\n",
+		"description": "When the pressed-keyboard is being released"
+	},
+
+	"KeyUp Element": {
+		"prefix": "keyup",
+		"body": "$1.addEventListener('keyup', $2);",
+		"description": "When the pressed-keyboard is being released"
+	},
+
+	"KeyPress Function Element": {
+		"prefix": "keypressf",
+		"body": "$1.addEventListener('keypress', function() {\n\t$2\n});\n",
+		"description": "When the keyboard is pressed"
+	},
+
+	"KeyPress Element": {
+		"prefix": "keypress",
+		"body": "$1.addEventListener('keypress', $2);",
+		"description": "When the keyboard is pressed"
+	},
+	
+	"Scroll Function Element": {
+		"prefix": "scrolf",
+		"body": "$1.addEventListener('scroll', function() {\n\t$2\n});\n",
+		"description": ""
+	},
+
+	"Scroll Element": {
+		"prefix": "scrol",
+		"body": "$1.addEventListener('scroll', $2);",
+		"description": ""
+	},
+}
